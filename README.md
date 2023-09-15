@@ -1,8 +1,8 @@
-# Script MetaboAnalyst
+# Script MetaboAnalyst Modificado
 
 ## Primeiros Passos
 
-Inicialmente, antes de utilizar o script, deve-se instalar o pacote do [*MetaboAnalyst*](https://metaboanalyst.ca/) para o R ([*MetaboAnalystR*](https://github.com/xia-lab/MetaboAnalystR)), assim como suas dependências.
+Inicialmente, antes de utilizar o script, deve-se instalar o pacote modificado por mim do [*MetaboAnalyst*](https://metaboanalyst.ca/){:target="_blank"}  para o R ([*MetaboAnalystR*](https://github.com/blagorodnyh/metaboanalyst-fork-pn)), assim como suas dependências.
 
 ### Instalando as Dependências
 
@@ -37,7 +37,7 @@ metanr_packages()
 
 #### Opção 2
 
-Utilize o pacote [*pacman*](https://github.com/trinker/pacman) para instalar as dependências:
+Utilize o pacote [*pacman*](https://github.com/trinker/pacman){:target="_blank"}  para instalar as dependências:
 
 ```R
 install.packages("pacman")
@@ -47,11 +47,11 @@ library(pacman)
 pacman::p_load(c("impute", "pcaMethods", "globaltest", "GlobalAncova", "Rgraphviz", "preprocessCore", "genefilter", "sva", "limma", "KEGGgraph", "siggenes", "BiocParallel", "MSnbase", "multtest","RBGL", "edgeR", "fgsea", "httr", "qs"))
 ```
 
-### Instalando o Pacote
+### Instalando o Pacote Modificado
 
 1. Baixe este repositório
 2. Extraia em uma pasta conhecida
 3. Abra o diretório MetaboAnalystR, 
-4. Execute o arquivo **MetaboAnalystR.Rproj** no software [*RStudio*](https://posit.co/download/rstudio-desktop/).
+4. Execute o arquivo **MetaboAnalystR.Rproj** no software [*RStudio*](https://posit.co/download/rstudio-desktop/){:target="_blank"} .
 5. Use o atalho *CTRL + Shift + B* para fazer o *build* do pacote modificado no seu computador.
 6. Utilize o script *MetaboAnalyst.R*
