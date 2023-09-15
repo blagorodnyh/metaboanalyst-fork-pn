@@ -46,3 +46,12 @@ library(pacman)
 
 pacman::p_load(c("impute", "pcaMethods", "globaltest", "GlobalAncova", "Rgraphviz", "preprocessCore", "genefilter", "sva", "limma", "KEGGgraph", "siggenes", "BiocParallel", "MSnbase", "multtest","RBGL", "edgeR", "fgsea", "httr", "qs"))
 ```
+
+### Instalando o Pacote
+
+1. Baixe este repositório
+2. Extraia em uma pasta conhecida
+3. Abra o diretório MetaboAnalystR, 
+4. Execute o arquivo **MetaboAnalystR.Rproj** no software [*RStudio*](https://posit.co/download/rstudio-desktop/).
+5. Use o atalho *CTRL + Shift + B* para fazer o *build* do pacote modificado no seu computador.
+6. Utilize o script *MetaboAnalyst.R*
